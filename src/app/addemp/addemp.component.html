@@ -1,0 +1,50 @@
+<div class="container ">
+  <div class="card ">
+    <form [formGroup]="Employeeform">
+      <h1 class="text-center my-5"> Add user</h1>
+
+      <div class="formgroup">
+        <label>Name</label><br>
+        <input type="text" id="one" formControlName="name"><br>
+      </div>
+
+
+
+      <div class="form-group">
+        <label>Age</label>
+        <input type="number" class="form-control" formControlName="age" />
+
+      </div>
+
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" class="form-control" formControlName="password" />
+      </div>
+
+      <div class="form-group">
+        <label>Email</label>
+        <input type="Email" class="form-control" formControlName="email" />
+      </div>
+      <div class="form-group">
+        <label>Address</label>
+        <input type="Address" class="form-control" formControlName="add" />
+      </div>
+      <div class="form-group">
+        <label>Phone</label>
+        <input type="number" class="form-control" formControlName="phone" />
+      </div>
+
+
+
+
+
+
+
+
+
+      <button class="btn btn-primary px-5" value="save" (click)="addemployee()" [routerLink]="['']">
+        submit
+      </button>
+
+    </form>
+  </div>

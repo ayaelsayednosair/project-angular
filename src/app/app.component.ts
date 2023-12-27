@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import{   faHome,faUser  } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project-form';
+  icon1=faHome ;
+  icon2=faUser ;
 }

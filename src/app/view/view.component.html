@@ -1,0 +1,18 @@
+<div class="container my-5">
+  <div class="row justify-content-center pt-5">
+    <div class="card" style="width: 30rem;">
+      <div class="card-header text-center">
+        <h5 class="card-header ">Employee Details</h5>
+        <img class="card-img-top" src="../../assets/image/images.png" alt="Card image cap" />
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Name:{{Employees?.name}}</h5>
+        <p class="card-text">age: {{Employees?.age}}</p>
+        <p class="card-text">add:{{Employees?.add}} </p>
+        <p class="card-text">phone:{{Employees?.phone}}</p>
+        <p class="card-text">Password:{{Employees?.password}}</p>
+        <p class="card-text">Email:{{Employees?.email}}</p>
+        <a [routerLink]="['']" class="btn btn-primary">Go Back</a>
+      </div>
+    </div>
+  </div>
